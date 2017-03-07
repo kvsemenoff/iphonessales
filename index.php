@@ -9,7 +9,6 @@
 <?php require_once('includes/our.php'); ?>
 <?php require_once('includes/how.php'); ?>
 <?php require_once('includes/footer.php'); ?>
-<?php require_once('includes/footer.php'); ?>
 
 </body>
 </html>

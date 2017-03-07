@@ -1,4 +1,38 @@
-
+.payment {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background: #fff;
+}
+.payment-title {
+    margin-bottom: 40px;
+    font-size: 35px;
+    line-height: 35px;
+}
+.payment-img {
+    max-width: 100%;
+}
+.payment-item {
+    height: 70px;
+    margin-bottom: 20px;
+}
+.payment-item-visa {
+    background: url(/img/visa.png) 50% 50% no-repeat;
+}
+.payment-item-mc {
+    background: url(/img/master-card.png)  50% 50% no-repeat;
+}
+.payment-item-yndx {
+    background: url(/img/yandex-money.png) 50% 50% no-repeat;
+}
+.payment-item-wbm {
+    background: url(/img/webmoney.png) 50% 50% no-repeat;
+}
+.payment-item-qw {
+    background: url(/img/qiwi.png) 50% 50% no-repeat;
+}
+.payment-item-cash {
+    background: url(/img/cash.png) 50% 50% no-repeat;
+}
 @media only screen and (min-width : 320px) {
 }
 
