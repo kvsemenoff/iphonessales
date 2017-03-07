@@ -1,0 +1,46 @@
+/* line 1, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+.payment {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background: #fff; }
+
+/* line 6, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+.payment-title {
+  margin-bottom: 40px;
+  font-size: 35px;
+  line-height: 35px; }
+
+/* line 11, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+.payment-img {
+  max-width: 100%; }
+
+/* line 14, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+.payment-item {
+  height: 70px;
+  margin-bottom: 20px; }
+
+/* line 18, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+.payment-item-visa {
+  background: url(/img/visa.png) 50% 50% no-repeat; }
+
+/* line 21, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+.payment-item-mc {
+  background: url(/img/master-card.png) 50% 50% no-repeat; }
+
+/* line 24, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+.payment-item-yndx {
+  background: url(/img/yandex-money.png) 50% 50% no-repeat; }
+
+/* line 27, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+.payment-item-wbm {
+  background: url(/img/webmoney.png) 50% 50% no-repeat; }
+
+/* line 30, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+.payment-item-qw {
+  background: url(/img/qiwi.png) 50% 50% no-repeat; }
+
+/* line 33, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+.payment-item-cash {
+  background: url(/img/cash.png) 50% 50% no-repeat; }
+
+/*# sourceMappingURL=style-dg.css.map */
