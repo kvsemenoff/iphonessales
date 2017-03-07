@@ -21,7 +21,7 @@
 
 @font-face {
   font-family: "OpenSans-Italic";
-  src: url("../fonts/OpenSans-Italic/OpenSans-Italic.eot");
+  src: url("../fonts/OpenSans-Italic/OpenSans-Italic.ttf");
   src: local("☺"), url("../fonts/OpenSans-Italic/OpenSans-Italic.woff") format("woff"), url("../fonts/OpenSans-Italic/OpenSans-Italic.ttf") format("truetype"), url("../fonts/OpenSans-Italic/OpenSans-Italic.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
@@ -35,7 +35,7 @@
 
 @font-face {
   font-family: "OpenSans-Semibold";
-  src: url("../fonts/OpenSans-Semibold/OpenSans-Semibold.eot");
+  src: url("../fonts/OpenSans-Semibold/OpenSans-Semibold.ttf");
   src: local("☺"), url("../fonts/OpenSans-Semibold/OpenSans-Semibold.woff") format("woff"), url("../fonts/OpenSans-Semibold/OpenSans-Semibold.ttf") format("truetype"), url("../fonts/OpenSans-Semibold/OpenSans-Semibold.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
