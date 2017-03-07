@@ -46,3 +46,10 @@
   src: local("☺"), url("../fonts/OpenSans-SemiboldItalic/OpenSans-SemiboldItalic.woff") format("woff"), url("../fonts/OpenSans-SemiboldItalic/OpenSans-SemiboldItalic.ttf") format("truetype"), url("../fonts/OpenSans-SemiboldItalic/OpenSans-SemiboldItalic.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
+
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url("../fonts/OpenSans-Light/OpenSans-Light.eot");
+  src: local("☺"), url("../fonts/OpenSans-Light/OpenSans-Light.woff") format("woff"), url("../fonts/OpenSans-Light/OpenSans-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
