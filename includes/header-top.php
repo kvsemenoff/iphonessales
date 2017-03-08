@@ -60,14 +60,14 @@
 			<div class="container">
 				<nav class="menu">
 					<ul class="menu__list clearfix">
-						<li class="menu__li"><a href="#">iPhone 6S</a></li>
-						<li class="menu__li"><a href="#">iPhone 6</a></li>
-						<li class="menu__li"><a href="#">iPhone 6Plus</a></li>
-						<li class="menu__li"><a href="#">iPhone 5S</a></li>
-						<li class="menu__li"><a href="#">iPhone 5C</a></li>
-						<li class="menu__li"><a href="#">iPhone 5</a></li>
-						<li class="menu__li"><a href="#">iPhone 4s</a></li>
-						<li class="menu__li"><a href="#">iPhone 4</a></li>
+						<li class="menu__li"><a href="#iphone6s">iPhone 6S</a></li>
+						<li class="menu__li"><a href="#iphone6">iPhone 6</a></li>
+						<li class="menu__li"><a href="#iphone6plus">iPhone 6Plus</a></li>
+						<li class="menu__li"><a href="#iphone5s">iPhone 5S</a></li>
+						<li class="menu__li"><a href="#iphone5c">iPhone 5C</a></li>
+						<li class="menu__li"><a href="#iphone5">iPhone 5</a></li>
+						<li class="menu__li"><a href="#iphone4s">iPhone 4s</a></li>
+						<li class="menu__li"><a href="#iphone4">iPhone 4</a></li>
 					</ul>
 				</nav>
 			</div>
