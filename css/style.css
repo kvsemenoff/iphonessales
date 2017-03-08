@@ -9,31 +9,31 @@
 @import url(style-dh.css);
 @import url(style-di.css);
 @import url(style-dj.css);
-/* line 5, C:/OpenServer/domains/iphone.loc/css/style.scss */
+/* line 5, C:/OpenServer/domains/iphone.local/css/style.scss */
 .clear {
   clear: both; }
 
-/* line 8, C:/OpenServer/domains/iphone.loc/css/style.scss */
+/* line 8, C:/OpenServer/domains/iphone.local/css/style.scss */
 .center {
   text-align: center; }
 
-/* line 12, C:/OpenServer/domains/iphone.loc/css/style.scss */
+/* line 12, C:/OpenServer/domains/iphone.local/css/style.scss */
 h2 {
   color: #67635b;
-  font-family: "OpenSans-Light";
+  font-family: "Open Sans";
   font-size: 44px;
   font-weight: 300;
   line-height: 44px;
   text-align: center; }
 
-/* line 21, C:/OpenServer/domains/iphone.loc/css/style.scss */
+/* line 21, C:/OpenServer/domains/iphone.local/css/style.scss */
 .h2-white {
   color: #fff; }
 
-/* line 25, C:/OpenServer/domains/iphone.loc/css/style.scss */
+/* line 25, C:/OpenServer/domains/iphone.local/css/style.scss */
 .button1 {
   color: #fff;
-  font-family: "OpenSans-Regular";
+  font-family: "Open Sans";
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
@@ -43,16 +43,14 @@ h2 {
   display: inline-block;
   text-align: center; }
 
-/* line 37, C:/OpenServer/domains/iphone.loc/css/style.scss */
+/* line 37, C:/OpenServer/domains/iphone.local/css/style.scss */
 .button1-pink {
   background-color: #f35c9f;
   width: 185px; }
 
-/* line 41, C:/OpenServer/domains/iphone.loc/css/style.scss */
+/* line 41, C:/OpenServer/domains/iphone.local/css/style.scss */
 .button1-blue {
   background-color: #22adc2;
   width: 130px; }
 
-/*# sourceMappingURL=style.css.map */
-@import url(reset.css);@import url(fonts.css);@import url(style-db.css);@import url(style-dc.css);@import url(style-dd.css);@import url(style-de.css);@import url(style-df.css);@import url(style-dg.css);@import url(style-dh.css);@import url(style-di.css);@import url(style-dj.css);.clear{clear:both}.center{text-align:center}
 /*# sourceMappingURL=style.css.map */

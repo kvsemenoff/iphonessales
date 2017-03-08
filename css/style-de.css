@@ -1,0 +1,15 @@
+.map { font-family: "Open Sans", arial, sans-serif; margin-top: 75px; height: 640px; overflow: hidden; position: relative; }
+
+.map-contact { width: 460px; text-align: center; color: #fff; height: 640px; background: #22adc2; position: absolute; top: 0; }
+.map-contact .title-block { background: #20a3b7; padding: 30px 0 35px; }
+.map-contact .call { font-weight: 300; display: block; font-size: 30px; padding-bottom: 3px; }
+.map-contact .phone { display: inline-block; font-size: 32px; padding-left: 33px; background: url(../img/phone-ic.png) 0 12px no-repeat; }
+.map-contact .inner { padding: 31px 0; background: #22adc2; }
+.map-contact .title { font-size: 30px; font-weight: 300; }
+.map-contact p { font-weight: 300; font-size: 20px; padding-bottom: 40px; }
+.map-contact .input-wrap { padding-bottom: 37px; }
+.map-contact .input-wrap-btn { margin-top: 10px; }
+.map-contact .descr { font-size: 14px; display: block; }
+
+@media only screen and (max-width: 630px) { .map-contact { width: 380px; } }
+@media only screen and (max-width: 510px) { .mape-block { display: none; } }
