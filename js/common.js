@@ -85,10 +85,7 @@ $(document).ready(function(){
         $(this).find('.az-options').slideToggle(0);
         $(this).toggleClass('az-select-focus');
     });
-<<<<<<< HEAD
 
-=======
->>>>>>> 10fb9b5db2f1040828d4c584de64406d64036200
 
     $('.menu-up').slideUp(0);
     $('.menu-button').click(function(){
@@ -102,13 +99,11 @@ $(document).ready(function(){
     });
 
 
-<<<<<<< HEAD
+
 
     $(".phone").mask("+ 7 (999) 999 - 99 - 99?");
 
-=======
-    $(".phone").mask("+ 7 (999) 999 - 99 - 99?");
->>>>>>> 10fb9b5db2f1040828d4c584de64406d64036200
+
  });
 
 
