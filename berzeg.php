@@ -164,6 +164,48 @@
 
 <!-- Конец бонусом вы получите -->
 
+
+<!-- Шапка -->
+
+<section class="dd-head-wrap">
+	<div class="dd-container">
+		<div class="dd-txt_h">
+			<span>Оригинальные</span>
+			<span>Apple iPhone</span>
+			<span>в Санкт-Петербурге</span>
+		</div>
+
+		<div class="dd-main_h">
+			<span>Закажите
+				прямо сейчас
+			</span>
+			<span>и получите защитное
+				стекло в подарок!
+			</span>
+			<form action="#" method="post">
+				<input type="text" name="uname" placeholder="Имя">
+				<input type="text" name="phone" placeholder="Номер телефоны">
+				<div  class="az-select">
+					<select name="" id="">
+						<option value="1">Выберите модель</option>
+						<option value="2">iphone 5</option>
+						<option value="3">iphone 6</option>
+						<option value="4">iphone 7</option>
+					</select>
+				</div>
+				<div class="dd-button_h">
+					<a href="#">Заказать телефон</a>
+				</div>
+			</form>
+		</div>
+		
+	</div>
+</section>
+
+<!-- Конец шапка -->
+
+
+
 <?php require_once('includes/footer.php'); ?>
 
 <script>
