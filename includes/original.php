@@ -25,11 +25,11 @@
 				</div>
 				<div class="dd-form-box_h">
 					<div  class="az-select">
-						<select name="model" id="">
+						<select name="model">
 							<option value="1">Выберите модель</option>
-							<option value="2">iphone 5</option>
-							<option value="3">iphone 6</option>
-							<option value="4">iphone 7</option>
+							<option value="iphone 5">iphone 5</option>
+							<option value="iphone 6">iphone 6</option>
+							<option value="iphone 6">iphone 7</option>
 						</select>
 					</div>
 					<div class="dd-button_h">
