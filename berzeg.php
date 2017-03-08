@@ -168,18 +168,21 @@
 <!-- Шапка -->
 
 <section class="dd-head-wrap">
-	<div class="dd-container">
+	<div class="dd-container dd-relative">
 		<div class="dd-txt_h">
 			<span>Оригинальные</span>
 			<span>Apple iPhone</span>
 			<span>в Санкт-Петербурге</span>
 		</div>
-
+		<div class="dd-txt_h dd-txt_h_big">
+			<span>Оригинальные <span>Apple iPhone</span></span>
+			<span>в Санкт-Петербурге</span>
+		</div>
 		<div class="dd-main_h">
 			<span class="dd-sp1_h">Закажите
 				прямо сейчас
 			</span>
-			<span class="dd-sp2_h">и получите защитное<br>
+			<span class="dd-sp2_h">и получите защитное
 				стекло в подарок!
 			</span>
 			<form action="#" method="post">
@@ -198,6 +201,9 @@
 					</div>
 					<div class="dd-button_h">
 						<a class="dd-button-1 dd-w100" href="#">Заказать телефон</a>
+					</div>
+					<div class="dd-strelka">
+						<img src="img/strel.png" alt="">
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -271,31 +277,31 @@
 </script>
 <script>
 
-		var count = 8;
-		var minutes = 55;
-		var hours = 10;
-		
-		var end = 0;
-		
-		if (count < 10) {
-			$("#dd-sec").html('0'+count);
-		}
-		else {
-			$("#dd-sec").html(count);
-		}
-		if (minutes < 10) {
-			$("#dd-min").html('0'+minutes);
-		}
-		else {
-			$("#dd-min").html(minutes);
-		}
-		if (hours < 10) {
-			$("#dd-hours").html('0'+hours);
-		}
-		else {
-			$("#dd-hours").html(hours);
-		}
-		
+	var count = 8;
+	var minutes = 55;
+	var hours = 10;
+
+	var end = 0;
+
+	if (count < 10) {
+		$("#dd-sec").html('0'+count);
+	}
+	else {
+		$("#dd-sec").html(count);
+	}
+	if (minutes < 10) {
+		$("#dd-min").html('0'+minutes);
+	}
+	else {
+		$("#dd-min").html(minutes);
+	}
+	if (hours < 10) {
+		$("#dd-hours").html('0'+hours);
+	}
+	else {
+		$("#dd-hours").html(hours);
+	}
+
 	var counter=setInterval(timer, 1000); //1000 will  run it every 1 second
 
 	function timer()
@@ -334,9 +340,9 @@
 				$("#dd-min").html(minutes);
 			}
 			if (end) { count = '00';}
-				else {
-					count = 59;
-				}
+			else {
+				count = 59;
+			}
 			
 			$("#dd-sec").html(count);
 		}
