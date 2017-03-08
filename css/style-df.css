@@ -1,21 +1,26 @@
+/* line 1, C:/OpenServer/domains/iphone.local/css/style-df.scss */
 .clear {
   clear: both; }
 
 /*=========model=======*/
+/* line 7, C:/OpenServer/domains/iphone.local/css/style-df.scss */
 .dfcontainer {
   max-width: 1300px;
   width: 100%;
   margin: 0 auto; }
 
+/* line 12, C:/OpenServer/domains/iphone.local/css/style-df.scss */
 .dfmodcap {
   font-family: "Open Sans", arial, sans-serif;
   font-weight: 300px;
   margin-bottom: 0px;
   margin-top: 40px; }
 
+/* line 18, C:/OpenServer/domains/iphone.local/css/style-df.scss */
 .dfmodel {
   text-align: center; }
 
+/* line 21, C:/OpenServer/domains/iphone.local/css/style-df.scss */
 .dfmodelchar {
   max-width: 625px;
   width: 100%;
@@ -27,6 +32,7 @@
   text-align: left;
   position: relative; }
 
+/* line 32, C:/OpenServer/domains/iphone.local/css/style-df.scss */
 .dfmodelchar:after {
   position: absolute;
   content: "";
@@ -39,6 +45,7 @@
   left: 50%;
   transform: translate(-50%, 0); }
 
+/* line 47, C:/OpenServer/domains/iphone.local/css/style-df.scss */
 .dfnamemodel {
   font-size: 40px;
   color: #67635b;
@@ -47,6 +54,7 @@
   margin-bottom: 33px;
   padding-left: 17px; }
 
+/* line 60, C:/OpenServer/domains/iphone.local/css/style-df.scss */
 .dfmodelimg {
   max-width: 625px;
   width: 100%;
@@ -55,14 +63,17 @@
   padding: 0px 30px 50px 30px;
   max-height: 571px;
   margin-top: 50px; }
+  /* line 68, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .dfmodelimg img {
     margin: 0 auto;
     display: inline-block;
     vertical-align: bottom; }
 
+/* line 76, C:/OpenServer/domains/iphone.local/css/style-df.scss */
 .dfcharbox {
   border-bottom: 2px solid white;
   padding: 0px 0 0px 17px; }
+  /* line 79, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .dfcharbox span {
     display: inline-block;
     font-size: 16px;
@@ -70,15 +81,18 @@
     line-height: 36px;
     letter-spacing: -0.01em;
     vertical-align: top; }
+  /* line 89, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .dfcharbox span:last-child {
     padding-left: 5px; }
 
+/* line 97, C:/OpenServer/domains/iphone.local/css/style-df.scss */
 .dfcharram {
   font-family: "Open Sans", arial, sans-serif;
   font-weight: 400;
   padding: 0px 0 0px 17px;
   border-bottom: 2px solid white; }
 
+/* line 103, C:/OpenServer/domains/iphone.local/css/style-df.scss */
 .dfobe {
   display: inline-block;
   font-size: 16px;
@@ -86,10 +100,12 @@
   line-height: 36px;
   letter-spacing: -0.01em; }
 
+/* line 110, C:/OpenServer/domains/iphone.local/css/style-df.scss */
 .dfgb {
   display: inline-block;
   padding-left: 16px;
   max-width: 283px; }
+  /* line 114, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .dfgb a {
     display: inline-block;
     font-size: 16px;
@@ -97,20 +113,25 @@
     line-height: 36px;
     letter-spacing: -0.01em;
     width: 55px; }
+  /* line 122, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .dfgb a:first-child {
     color: #f35c9f;
     font-weight: 600; }
 
+/* line 128, C:/OpenServer/domains/iphone.local/css/style-df.scss */
 .dfcharboxlast {
   border-bottom: none; }
+  /* line 130, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .dfcharboxlast span {
     line-height: 70px; }
 
+/* line 134, C:/OpenServer/domains/iphone.local/css/style-df.scss */
 .dfcolor {
   display: inline-block;
   max-width: 290px;
   padding-left: 16px;
   padding-top: 19px; }
+  /* line 139, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .dfcolor a {
     display: inline-block;
     width: 35px;
@@ -119,21 +140,29 @@
     border-radius: 50%;
     line-height: 60px;
     vertical-align: middle; }
+  /* line 148, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .dfcolor .dfc1 {
     background-color: #f29187; }
+  /* line 151, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .dfcolor .dfc2 {
     background-color: #f39434; }
+  /* line 154, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .dfcolor .dfc3 {
     background-color: #cccccc; }
+  /* line 157, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .dfcolor .dfc4 {
     background-color: #272727; }
+  /* line 160, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .dfcolor .dfgreen {
     background-color: #34ec6a; }
+  /* line 163, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .dfcolor .dfyellow {
     background-color: #e8da53; }
+  /* line 166, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .dfcolor .dfblue {
     background-color: #38b2ef; }
 
+/* line 172, C:/OpenServer/domains/iphone.local/css/style-df.scss */
 .dfprice {
   font-size: 40px;
   color: #736f66;
@@ -142,9 +171,11 @@
   margin: 14px 0 35px 0;
   font-weight: 300;
   padding-left: 17px; }
+  /* line 180, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .dfprice span {
     font-size: 30px; }
 
+/* line 185, C:/OpenServer/domains/iphone.local/css/style-df.scss */
 .dfbron {
   display: block;
   text-align: center;
@@ -159,6 +190,7 @@
   margin: 0 25px;
   margin-bottom: 15px; }
 
+/* line 199, C:/OpenServer/domains/iphone.local/css/style-df.scss */
 .dfras {
   display: block;
   text-align: center;
@@ -173,75 +205,80 @@
   margin: 0 25px; }
 
 @media only screen and (min-width: 992px) {
+  /* line 224, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .dfmodcap {
     margin-bottom: 62px;
     margin-top: 77px; }
-
+  /* line 228, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .dfmodelimg {
     padding: 60px 20px;
     margin-top: 0; }
-
+  /* line 232, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .dfmodelchar {
     padding: 50px 0 60px 55px; }
-
+  /* line 235, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .dfnamemodel {
     padding-left: 0px; }
-
+  /* line 238, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .dfmodelchar:after {
     display: none; }
-
+  /* line 241, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .floatright {
     float: right; }
-
+  /* line 244, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .floatleft {
     float: left; }
-
+  /* line 248, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .dfcharbox {
     padding: 0px 0 0px 5px;
     border-bottom: 1px solid white; }
+    /* line 251, C:/OpenServer/domains/iphone.local/css/style-df.scss */
     .dfcharbox span:first-child {
       max-width: 232px;
       width: 100%;
       border-right: 1px solid white; }
+    /* line 256, C:/OpenServer/domains/iphone.local/css/style-df.scss */
     .dfcharbox span:last-child {
       padding-left: 15px; }
-
+  /* line 260, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .dfcharboxlast {
     border-bottom: none; }
-
+  /* line 263, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .dfobe {
     max-width: 232px;
     width: 100%;
     border-right: 1px solid white;
     padding-bottom: 17px; }
-
+  /* line 269, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .dfprice {
     margin: 14px 0 28px 0;
     padding-left: 5px; }
-
+  /* line 273, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .dfcharram {
     border-bottom: 1px solid white;
     padding: 0px 0 0px 5px; }
-
+  /* line 277, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .dfbron {
     display: inline-block;
     padding: 4px 33px 3px 33px;
     margin-right: 40px;
     margin-left: 10px;
     font-weight: 400; }
-
+  /* line 284, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .dfras {
     display: inline-block;
     padding: 4px 33px 3px 33px;
     border-bottom: 4px solid #1f9fb3;
     font-weight: 400; } }
+
 @media only screen and (min-width: 1248px) {
+  /* line 293, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .dfrighttreyg {
     position: relative; }
-
+  /* line 296, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .dflefttreyg {
     position: relative; }
-
+  /* line 299, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .dfrighttreyg:before {
     content: "";
     position: absolute;
@@ -253,7 +290,7 @@
     border-left: 22px solid #f3f3f3;
     border-bottom: 20px solid transparent;
     transform: translate(0, -50%); }
-
+  /* line 310, C:/OpenServer/domains/iphone.local/css/style-df.scss */
   .dflefttreyg:before {
     content: "";
     position: absolute;
