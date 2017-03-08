@@ -104,34 +104,219 @@
   margin-top: -50px;
   margin-bottom: 0; }
 
+/* line 90, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+.leave {
+  padding-bottom: 50px; }
+
+/* line 93, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+.leave-form-block {
+  background: #22adc2;
+  padding: 30px 30px 40px 30px; }
+
+/* line 97, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+.leave-title {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 36px;
+  margin-bottom: 25px; }
+
+/* line 104, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+.leave-subtitle {
+  color: white;
+  font-family: "Open Sans";
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 30px; }
+
+/* line 113, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+.leave-span {
+  font-size: 30px; }
+
+/* line 116, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+.leave-input {
+  background-color: #fff;
+  border-radius: 3px;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  max-width: 360px;
+  margin: auto;
+  display: block;
+  height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #67635b;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: italic;
+  line-height: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /* Firefox 19+ */
+  /* Firefox 18- */ }
+  /* line 135, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+  .leave-input.phone {
+    margin-bottom: 40px; }
+  /* line 138, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+  .leave-input::-webkit-input-placeholder {
+    color: #67635b;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: italic;
+    line-height: 30px; }
+  /* line 145, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+  .leave-input::-moz-placeholder {
+    color: #67635b;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: italic;
+    line-height: 30px; }
+  /* line 152, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+  .leave-input:-moz-placeholder {
+    color: #67635b;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: italic;
+    line-height: 30px; }
+  /* line 159, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+  .leave-input:-ms-input-placeholder {
+    color: #67635b;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: italic;
+    line-height: 30px; }
+  /* line 166, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+  .leave-input:first-child {
+    margin-bottom: 20px; }
+
+/* line 170, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+.leave-submit {
+  background-color: #f35c9f;
+  border-radius: 3px;
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.08);
+  color: white;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  max-width: 220px;
+  margin: auto;
+  display: block;
+  margin-bottom: 40px; }
+
+/* line 190, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+.leave-managers {
+  color: white;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 30px; }
+
+/* line 200, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+.leave-payment img {
+  max-width: 100%;
+  height: 100%;
+  display: block;
+  margin: auto; }
+
+@media only screen and (min-width: 768px) {
+  /* line 214, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+  .leave-form-block {
+    height: 620px; } }
+
 @media only screen and (min-width: 992px) {
-  /* line 99, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+  /* line 220, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
   .our {
     padding-top: 80px;
     padding-bottom: 80px;
     background: url(/img/our-bg.jpg) 0 0 no-repeat;
     background-size: cover;
     background-position: 55% 0px; }
-  /* line 106, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+  /* line 227, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
   .our-title {
     font-size: 44px;
     margin-bottom: 60px; }
-  /* line 110, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+  /* line 231, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
   .our-item {
     margin-bottom: 70px; }
-  /* line 113, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+  /* line 234, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
   .consultant, .available {
     margin-bottom: 0; }
-  /* line 116, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+  /* line 237, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
   .our-item__header {
     font-size: 24px;
     margin-bottom: 10px; }
-  /* line 120, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+  /* line 241, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
   .our-item__descr {
-    font-size: 18px; } }
+    font-size: 18px; }
+  /* line 244, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+  .leave {
+    background: url(/img/leave-bg.png) 20% 0 no-repeat; }
+  /* line 247, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+  .leave-form-block {
+    background: transparent; }
+  /* line 250, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+  .leave-title {
+    color: #67635b !important;
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 30px; }
+  /* line 256, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+  .leave-subtitle {
+    color: #67635b;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 30px; }
+  /* line 262, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+  .leave-block {
+    margin-top: 160px; }
+  /* line 265, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+  .leave-form-block {
+    padding: 0;
+    height: 100%; }
+  /* line 269, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+  .leave-managers-md {
+    color: #67635b;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 70px; }
+  /* line 277, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+  .leave-subtitle {
+    margin-bottom: 45px; }
+  /* line 280, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+  .leave-input.phone {
+    margin-bottom: 50px; }
+  /* line 283, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+  .leave-submit {
+    margin-bottom: 70px; }
+  /* line 287, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+  .leave-banks-lg img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: 100%; }
+  /* line 294, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+  .leave-block {
+    width: 570px; }
+  /* line 297, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+  .leave-input:first-child {
+    margin-bottom: 40px; } }
 
 @media only screen and (min-width: 1248px) {
-  /* line 126, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+  /* line 303, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
   .our-container {
     width: 100%;
     max-width: 1248px; } }

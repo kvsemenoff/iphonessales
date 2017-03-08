@@ -1,68 +1,76 @@
-/* line 1, C:/OpenServer/domains/iphone.local/css/style-de.scss */
-.map {
-  font-family: "Open Sans", arial, sans-serif;
-  margin-top: 75px;
-  height: 640px;
-  overflow: hidden;
-  position: relative; }
+.head-top { font-family: "Open Sans", arial, sans-serif; }
 
-/* line 8, C:/OpenServer/domains/iphone.local/css/style-de.scss */
-.map-contact {
-  width: 460px;
-  text-align: center;
-  color: #fff;
-  height: 640px;
-  background: #22adc2;
-  position: absolute;
-  top: 0; }
-  /* line 16, C:/OpenServer/domains/iphone.local/css/style-de.scss */
-  .map-contact .title-block {
-    background: #20a3b7;
-    padding: 30px 0 35px; }
-  /* line 20, C:/OpenServer/domains/iphone.local/css/style-de.scss */
-  .map-contact .call {
-    font-weight: 300;
-    display: block;
-    font-size: 30px;
-    padding-bottom: 3px; }
-  /* line 26, C:/OpenServer/domains/iphone.local/css/style-de.scss */
-  .map-contact .phone {
-    display: inline-block;
-    font-size: 32px;
-    padding-left: 33px;
-    background: url(../img/phone-ic.png) 0 12px no-repeat; }
-  /* line 32, C:/OpenServer/domains/iphone.local/css/style-de.scss */
-  .map-contact .inner {
-    padding: 31px 0;
-    background: #22adc2; }
-  /* line 36, C:/OpenServer/domains/iphone.local/css/style-de.scss */
-  .map-contact .title {
-    font-size: 30px;
-    font-weight: 300; }
-  /* line 40, C:/OpenServer/domains/iphone.local/css/style-de.scss */
-  .map-contact p {
-    font-weight: 300;
-    font-size: 20px;
-    padding-bottom: 40px; }
-  /* line 45, C:/OpenServer/domains/iphone.local/css/style-de.scss */
-  .map-contact .input-wrap {
-    padding-bottom: 37px; }
-  /* line 48, C:/OpenServer/domains/iphone.local/css/style-de.scss */
-  .map-contact .input-wrap-btn {
-    margin-top: 10px; }
-  /* line 51, C:/OpenServer/domains/iphone.local/css/style-de.scss */
-  .map-contact .descr {
-    font-size: 14px;
-    display: block; }
+.top-line { padding: 20px 0; }
 
-@media only screen and (max-width: 630px) {
-  /* line 57, C:/OpenServer/domains/iphone.local/css/style-de.scss */
-  .map-contact {
-    width: 380px; } }
+.right { float: right; }
 
-@media only screen and (max-width: 510px) {
-  /* line 62, C:/OpenServer/domains/iphone.local/css/style-de.scss */
-  .mape-block {
-    display: none; } }
+.main-nav { float: left; padding-top: 3px; }
+.main-nav li { display: inline-block; }
+.main-nav li a { padding: 4px 13px; color: #67635b; font-size: 14px; display: block; }
 
-/*# sourceMappingURL=style-de.css.map */
+.head-top .phone { float: left; color: #67635b; text-align: right; padding: 0 38px 0 35px; }
+.head-top .phone .big { font-size: 20px; display: inline-block; padding-left: 20px; background: url(../img/phone-big.png) left center no-repeat; }
+.head-top .phone .sm { background: url(../img/phone-min.png) left center no-repeat; font-size: 14px; display: inline-block; padding-left: 20px; }
+
+.btn-wrap { float: left; padding-top: 2px; }
+
+.menu-burger { display: none; }
+
+.menu-g { background: #22adc2; }
+.menu-g .menu { background: #22adc2; }
+.menu-g .menu__li { float: left; width: 12.5%; text-align: center; }
+.menu-g .menu__li a { display: block; background: #22adc2; padding: 17px 0; color: #fff; font-size: 20px; font-weight: 300; }
+.menu-g .menu__li a:hover { color: #1e9bae; background: #f3f3f3; }
+
+.phone-btn { border: none; background: url(../img/phone-btn.png); width: 26px; height: 28px; position: absolute; top: 20px; right: 20px; display: none; }
+
+.bg { position: absolute; background: #22adc2; width: 27px; height: 21px; top: 25px; left: 20px; display: block; transition: 0.6s all ease; outline: none; }
+
+.bg::before { content: ""; position: absolute; width: 27px; height: 6px; top: 3px; left: 0; background: #fff; display: block; }
+
+.bg::after { content: ""; position: absolute; width: 27px; height: 6px; left: 0; background: #fff; display: block; top: 12px; }
+
+.bg-close { position: absolute; top: -80px; transition: 0.4s all ease; left: 0; width: 100%; background: #20a3b7 url(../img/bg-close-ic.png) 15px center no-repeat; line-height: 75px; padding-left: 60px; font-size: 20px; color: #fff; }
+
+.menu-button { position: relative; }
+
+.menu-button.active .bg { top: -80px; }
+.menu-button.active .bg-close { top: 0; }
+
+.logo { float: left; }
+.logo a { display: block; background: url(../img/logo.png); width: 141px; height: 35px; }
+
+.menu-burger { width: 280px; position: absolute; top: 0; left: 0; z-index: 1000; }
+.menu-burger .menu__list { padding: 100px 0 30px; background: #22adc2; }
+.menu-burger .menu__li a { background: #22adc2; color: #fff; font-size: 20px; padding: 0 0 0 48px; line-height: 48px; display: block; }
+.menu-burger .menu__li a:hover { font-weight: 600; background: #20a3b7; }
+
+.map { font-family: "Open Sans", arial, sans-serif; margin-top: 75px; height: 640px; overflow: hidden; position: relative; }
+
+.map-contact { width: 460px; text-align: center; color: #fff; height: 640px; background: #22adc2; position: absolute; top: 0; }
+.map-contact .title-block { background: #20a3b7; padding: 30px 0 35px; }
+.map-contact .call { font-weight: 300; display: block; font-size: 30px; padding-bottom: 3px; }
+.map-contact .phone { display: inline-block; font-size: 32px; padding-left: 33px; background: url(../img/phone-ic.png) 0 12px no-repeat; }
+.map-contact .inner { padding: 31px 0; background: #22adc2; }
+.map-contact .title { font-size: 30px; font-weight: 300; }
+.map-contact p { font-weight: 300; font-size: 20px; padding-bottom: 40px; }
+.map-contact .input-wrap { padding-bottom: 37px; }
+.map-contact .input-wrap input { margin-bottom: 0; }
+.map-contact .input-wrap-btn { margin-top: 10px; }
+.map-contact .descr { font-size: 14px; display: block; }
+
+@media only screen and (max-width: 1200px) { .phone { padding: 0 30px 0 3px; }
+  .logo { float: none; }
+  .logo a { margin: 0 auto; } }
+@media only screen and (max-width: 1000px) { .menu-g .menu__li a { font-size: 14px; }
+  .main-nav { float: none; text-align: center; }
+  .right { float: none; }
+  .phone { padding: 0 30px 0 140px; } }
+@media only screen and (max-width: 690px) { .head-top { height: 75px; }
+  .head-top .inner { position: fixed; top: 0; left: 0; width: 100%; background: rgba(255, 255, 255, 0.98); z-index: 10000; }
+  .menu-g { display: none; }
+  .menu-burger { display: block; }
+  .phone-btn { display: block; }
+  .right { display: none; } }
+@media only screen and (max-width: 630px) { .map-contact { width: 380px; } }
+@media only screen and (max-width: 510px) { .mape-block { display: none; } }

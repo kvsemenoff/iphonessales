@@ -86,6 +86,124 @@
     margin-top: -50px;
     margin-bottom: 0;
 }
+
+.leave {
+    padding-bottom: 50px;
+}
+.leave-form-block {
+    background: #22adc2;
+    padding: 30px 30px 40px 30px;
+}
+.leave-title {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 36px;
+    margin-bottom: 25px;
+}
+.leave-subtitle {
+    color: white;
+    font-family: "Open Sans";
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.leave-span {
+    font-size: 30px;
+}
+.leave-input {
+    background-color: #fff;
+    border-radius: 3px;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    max-width: 360px;
+    margin: auto;
+    display: block;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #67635b;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: italic;
+    line-height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    &.phone {
+        margin-bottom: 40px;
+    }
+    &::-webkit-input-placeholder {
+        color: #67635b;
+        font-family: "Open Sans";
+        font-size: 18px;
+        font-style: italic;
+        line-height: 30px;
+    }
+    &::-moz-placeholder {
+        color: #67635b;
+        font-family: "Open Sans";
+        font-size: 18px;
+        font-style: italic;
+        line-height: 30px;
+    }/* Firefox 19+ */
+    &:-moz-placeholder {
+        color: #67635b;
+        font-family: "Open Sans";
+        font-size: 18px;
+        font-style: italic;
+        line-height: 30px;
+    }/* Firefox 18- */
+    &:-ms-input-placeholder {
+        color: #67635b;
+        font-family: "Open Sans";
+        font-size: 18px;
+        font-style: italic;
+        line-height: 30px;
+    }
+    &:first-child {
+        margin-bottom: 20px;
+    }
+}
+.leave-submit {
+    background-color: #f35c9f;
+    border-radius: 3px;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.08);
+    color: white;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border: 0; 
+    outline: 0;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+    display: block;
+    margin-bottom: 40px;
+}
+.leave-managers {
+    color: white;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.leave-payment {
+    img {
+        max-width: 100%;
+        height: 100%;
+        display: block;
+        margin: auto;
+    }
+}
 @media only screen and (min-width : 320px) {
 }
 
@@ -93,6 +211,9 @@
 }
 
 @media only screen and (min-width : 768px) {
+    .leave-form-block {
+        height: 620px;
+    }
 }
 
 @media only screen and (min-width : 992px) {
@@ -119,6 +240,62 @@
     }
     .our-item__descr {
         font-size: 18px;
+    }
+    .leave {
+        background: url(/img/leave-bg.png) 20% 0 no-repeat;
+    }
+    .leave-form-block {
+        background: transparent;
+    }
+    .leave-title {
+        color: #67635b !important;
+        font-size: 44px;
+        font-weight: 300;
+        line-height: 30px;
+    }
+    .leave-subtitle {
+        color: #67635b;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 30px;
+    }
+    .leave-block {
+        margin-top: 160px;
+    }
+    .leave-form-block {
+        padding: 0;
+        height: 100%;
+    }
+    .leave-managers-md {
+        color: #67635b;
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 30px;
+        margin-bottom: 70px;
+    }
+    .leave-subtitle {
+        margin-bottom: 45px;
+    }
+    .leave-input.phone {
+        margin-bottom: 50px;
+    }
+    .leave-submit {
+        margin-bottom: 70px;
+    }
+    .leave-banks-lg {
+        img {
+            display: block;
+            margin: auto;
+            max-width: 100%;
+            height: 100%;
+        }
+    }
+    .leave-block {
+        width: 570px;
+    }
+    .leave-input:first-child {
+        margin-bottom: 40px;
     }
 }
 

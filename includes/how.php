@@ -55,13 +55,13 @@
 					<div class="form-wrap">
 						<form action="#">
 							<div class="input-wrap">
-								<input type="text" placeholder="Имя">
+								<input type="text" class="leave-input" placeholder="Имя">
 							</div>
 							<div class="input-wrap">
-								<input type="text" placeholder="Номер телефона">
+								<input type="text" class="leave-input" placeholder="Номер телефона">
 							</div>
 							<div class="input-wrap input-wrap-btn">
-								<input type="submit" value="Отправить заявку">
+								<input type="submit" class="leave-submit" value="Отправить заявку">
 							</div>
 						</form>
 					</div>
