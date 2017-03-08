@@ -14,7 +14,7 @@ $(document).ready(function(){
         $('body').css("overflow-y", "hidden");
         $(id).fadeIn();
         $('#js-mask').fadeIn();
-        var db_val = $(id).parents().find('.dfnamemodel').html();
+        var db_val = $(this).parents('.dfmodelchar').find('.dfnamemodel').html();
         $('.js-model').val(db_val);
     });
     $(".js-phone").mask("+7 (999) 999 - 99 - 99?");
