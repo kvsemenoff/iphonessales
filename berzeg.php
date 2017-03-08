@@ -60,9 +60,12 @@
 
 <section class="dd-footer-wrap">
 	<div class="dd-container">
+		<div class="dd-mobile">
+			<span class="dd-top">© Компания "АйфонСейл" 2017.</span>
+		</div>
 		<div class="dd-foter-box dd-foter-box_1">
 			<span><img src="img/dd-logo.png" alt=""></span>
-			<span>© Компания "АйфонСейл" 2017.</span>
+			<span class="dd-top">© Компания "АйфонСейл" 2017.</span>
 		</div>
 		<div class="dd-foter-box dd-foter-box_2">
 			<span>Мы дорожим своей репутацией профессионалов<br>
@@ -70,11 +73,11 @@
 			</span>
 		</div>
 		<div class="dd-foter-box dd-foter-box_3">
-			<div class="dd-footer-phone">
-				<span>8 (800) 775-43-78</span>
+			<div class="dd-footer-phone dd-float-left">
+				<span>8 (800) 775-43-78</span><br>
 				<span>8 (812) 385-43-78</span>
 			</div>
-			<div class="dd-footer-button">
+			<div class="dd-footer-button dd-float-left">
 				<a class="dd-button-1" href="#">Обратный звонок</a>
 			</div>
 			<div class="clearfix"></div>
@@ -88,6 +91,78 @@
 
 <!-- end Footer -->
 
+
+<!-- Бонусом вы получите -->
+
+<section class="dd-wrap_bonus">
+	<div class="dd-container">
+		<h2 class="dd-mob_h2_bonus">Бонусы</h2>
+		<h2 class="dd-dekstop_h2_bonus">Бонусом вы получите</h2>
+		<div class="dd-box_bonus">
+			<div class="dd-img_bonus">
+				<img src="img/b1.png" alt="">
+			</div>
+			<div class="dd-txt_bonus">
+				<p>Помощь в переносе 
+					контактов и данных
+					c другого телефона
+				</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="dd-box_bonus">
+			<div class="dd-img_bonus">
+				<img src="img/b2.png" alt="">
+			</div>
+			<div class="dd-txt_bonus">
+				<p>SIM-карту нужного
+					вам размера прямо<br>
+					на месте
+				</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="dd-box_bonus">
+			<div class="dd-img_bonus">
+				<img src="img/b3.png" alt="">
+			</div>
+			<div class="dd-txt_bonus">
+				<p>Помощь в получении
+					Apple ID и регистрации<br>
+					в iCloud
+				</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="dd-box_bonus">
+			<div class="dd-img_bonus">
+				<img src="img/b4.png" alt="">
+			</div>
+			<div class="dd-txt_bonus">
+				<p>Настройку телефона
+					под ваши нужды,<br>
+					установку приложений
+				</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="dd-box_bonus last_bonus">
+			<div class="dd-img_bonus">
+				<img src="img/b5.png" alt="">
+			</div>
+			<div class="dd-txt_bonus">
+				<p>Информационную
+					поддержку в течение
+					месяца
+				</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</section>
+
+<!-- Конец бонусом вы получите -->
 
 <?php require_once('includes/footer.php'); ?>
 
