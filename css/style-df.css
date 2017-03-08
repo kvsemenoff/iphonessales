@@ -10,7 +10,8 @@
 .dfmodcap {
   font-family: "Open Sans", arial, sans-serif;
   font-weight: 300px;
-  margin-bottom: 62px; }
+  margin-bottom: 0px;
+  margin-top: 40px; }
 
 .dfmodel {
   text-align: center; }
@@ -172,6 +173,10 @@
   margin: 0 25px; }
 
 @media only screen and (min-width: 992px) {
+  .dfmodcap {
+    margin-bottom: 62px;
+    margin-top: 77px; }
+
   .dfmodelimg {
     padding: 60px 20px;
     margin-top: 0; }
