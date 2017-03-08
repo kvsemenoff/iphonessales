@@ -20,7 +20,7 @@
 				<span>8 (812) 385-43-78</span>
 			</div>
 			<div class="dd-footer-button dd-float-left">
-				<a class="dd-button-1" href="#">Обратный звонок</a>
+				<a class="dd-button-1"  name="js-modal" href="#js-form1">Обратный звонок</a>
 			</div>
 			<div class="clearfix"></div>
 			<div class="dd-timeofwork">
