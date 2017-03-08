@@ -1,5 +1,5 @@
 <!-- Клиенты о нас -->
-
+<a name="testimonials"></a>
 <section class="dd-slider-wrap">
 	<div class="dd-container">
 		<div class="dd-title_ab">
