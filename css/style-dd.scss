@@ -226,7 +226,7 @@
 	padding: 30px 12px 115px;
 	margin: 0 auto;
 	background:rgba(#000, 0.22);
-		text-align: center;
+	text-align: center;
 	span{
 		font-family: "Open Sans", arial, sans-serif;
 		font-weight: 300;
@@ -257,6 +257,9 @@
 		font-style: italic;
 		font-size: 18px;
 	}
+}
+.dd-txt_h_big{
+	display: none;
 }
 .dd-txt_h{
 	text-align: center;
@@ -420,6 +423,9 @@ div[data-val]:hover{
 		}
 	}
 }
+.dd-strelka{
+	display: none;
+}
 
 @media only screen and (min-width : 320px) {
 	.dd-txt_bonus{
@@ -434,18 +440,73 @@ div[data-val]:hover{
 }
 
 @media only screen and (min-width : 992px) {
+	.dd-strelka{
+		display: block;
+		position: absolute;
+		bottom: -84px;
+		right: -159px;
+	}
+	.dd-relative{
+		position: relative;
+	}
+	.dd-txt_h{
+		display: none;
+	}
+	.dd-txt_h_big{
+		display: block;
+		text-align: left;
+		padding-left: 124px;
+		span{
+			display: inline-block;
+			font-weight: 300;
+			font-family: "Open Sans", arial, sans-serif;
+		}
+		span:first-child{
+			font-size: 56px;
+			span{
+				margin-left: 22px;
+				font-size: 65px;
+				letter-spacing: 6px;
+			}
+		}
+		span:last-child{
+			font-size: 48px;
+		}
+	}
 	.dd-head-wrap{
-		background:url(../img/big2.jpg) no-repeat top center;
+		background:url(../img/big3.jpg) no-repeat top center;
+		background-size:cover;
 		padding-top: 84px;
 		padding-bottom: 160px;
+		height: 847px;
+	}
+	.dd-w100{
+		margin-top: 20px;
 	}
 	.dd-main_h{
+		position: absolute;
+		left:18px;
+		top:288px;
 		background:none;
-		outline: 2px solid red;
 		width: 622px;
+		text-align: left;
+		padding: 0;
+		.dd-sp1_h{
+			font-size: 40px;
+			letter-spacing: 2px;
+			padding-bottom: 0;
+		}
+		.dd-sp2_h{
+			font-size: 28px;
+			letter-spacing: 2px;
+			padding-bottom: 43px;
+		}
 	}
 	.dd-timer{
-		display: none;
+		position: absolute;
+		// right: -429px;
+		right: -353px;
+		bottom:11px;
 	}
 	.dd-form-box_h{
 		width: 277px;
@@ -518,6 +579,12 @@ div[data-val]:hover{
 }
 
 @media only screen and (min-width : 1248px) {
+	.dd-main_h{
+		left:122px;
+	}
+	.dd-timer{
+		right: -429px;
+	}
 	.dd-foter-box_2{
 		width: 628px;
 	}
