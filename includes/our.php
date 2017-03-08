@@ -1,3 +1,4 @@
+<a name="advantages"></a>
 <section class="section section_padding our">
 <div class=" container our-container">
 	<div class="row">
