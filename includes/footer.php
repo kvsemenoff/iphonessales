@@ -15,5 +15,4 @@
 			<p>СПАСИБО ЗА ЗАЯВКУ!</p>
 		</div>
 	</div>
-	<a href="#js-form1" name="js-modal">Popap1</a>
 	<a href="#js-form2" name="js-modal"></a>
