@@ -33,7 +33,7 @@ $(document).ready(function(){
         $(this).find('.az-options').slideToggle(0);
         $(this).toggleClass('az-select-focus');
     });
-
+    $(".phone").mask("+ 7 (999) 999 - 99 - 99?");
  });
 
 
