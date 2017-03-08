@@ -1,3 +1,34 @@
+.head-top { font-family: "Open Sans", arial, sans-serif; }
+
+.menu-burger { display: none; }
+
+.menu-g { background: #22adc2; }
+.menu-g .menu { background: #22adc2; }
+.menu-g .menu__li { float: left; width: 12.5%; text-align: center; }
+.menu-g .menu__li a { display: block; background: #22adc2; padding: 17px 0; color: #fff; font-size: 20px; font-weight: 300; }
+.menu-g .menu__li a:hover { color: #1e9bae; background: #f3f3f3; }
+
+.bg { position: absolute; background: #22adc2; width: 27px; height: 21px; top: 5px; left: 0; display: block; transition: 0.6s all ease; outline: none; }
+
+.bg::before { content: ""; position: absolute; width: 27px; height: 6px; top: 3px; left: 0; background: #fff; display: block; }
+
+.bg::after { content: ""; position: absolute; width: 27px; height: 6px; left: 0; background: #fff; display: block; top: 12px; }
+
+.bg-close { position: absolute; top: -80px; transition: 0.4s all ease; left: 0; width: 100%; background: #20a3b7 url(../img/bg-close-ic.png) 15px center no-repeat; line-height: 75px; padding-left: 60px; font-size: 20px; color: #fff; }
+
+.menu-button { position: relative; }
+
+.menu-button.active .bg { top: -80px; }
+.menu-button.active .bg-close { top: 0; }
+
+.logo { float: left; }
+.logo a { display: block; background: url(../img/logo.png); width: 141px; height: 35px; }
+
+.menu-burger { width: 280px; position: absolute; top: 0; left: 0; z-index: 1000; }
+.menu-burger .menu__list { padding: 100px 0 30px; background: #22adc2; }
+.menu-burger .menu__li a { background: #22adc2; color: #fff; font-size: 20px; padding: 0 0 0 48px; line-height: 48px; display: block; }
+.menu-burger .menu__li a:hover { font-weight: 600; background: #20a3b7; }
+
 .map { font-family: "Open Sans", arial, sans-serif; margin-top: 75px; height: 640px; overflow: hidden; position: relative; }
 
 .map-contact { width: 460px; text-align: center; color: #fff; height: 640px; background: #22adc2; position: absolute; top: 0; }
@@ -11,5 +42,8 @@
 .map-contact .input-wrap-btn { margin-top: 10px; }
 .map-contact .descr { font-size: 14px; display: block; }
 
+@media only screen and (max-width: 1000px) { .menu-g .menu__li a { font-size: 14px; } }
+@media only screen and (max-width: 690px) { .menu-g { display: none; }
+  .menu-burger { display: block; } }
 @media only screen and (max-width: 630px) { .map-contact { width: 380px; } }
 @media only screen and (max-width: 510px) { .mape-block { display: none; } }

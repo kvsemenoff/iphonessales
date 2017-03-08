@@ -34,6 +34,18 @@ $(document).ready(function(){
         $(this).toggleClass('az-select-focus');
     });
 
+    $('.menu-up').slideUp(0);
+    $('.menu-button').click(function(){
+        if (!$(this).hasClass('active')){
+            $(this).addClass('active');
+            $('.menu-up').slideDown(400)
+        } else {
+            $(this).removeClass('active');
+            $('.menu-up').slideUp(400)
+        }
+    });
+
+
  });
 
 
