@@ -1,5 +1,68 @@
-
-
+.map{
+	font-family: "OpenSans-Regular", arial, sans-serif;
+	margin-top: 75px;
+	height: 640px;
+	overflow: hidden;
+	position: relative;
+}
+.map-contact{
+	width: 460px;
+	text-align: center;
+	color: #fff;
+	height: 640px;
+	background: #22adc2;
+	position: absolute;
+	top: 0;
+	.title-block{
+		background: #20a3b7;
+		padding: 30px 0 35px;
+	}
+	.call{
+		font-family: "OpenSans-Light", arial, sans-serif;
+		display: block;
+		font-size: 30px;
+		padding-bottom: 3px;
+	}
+	.phone{
+		display: inline-block;
+		font-size: 32px;
+		padding-left: 33px;
+		background: url(../img/phone-ic.png) 0 12px no-repeat;
+	}
+	.inner{
+		padding: 31px 0;
+		background: #22adc2;
+	}
+	.title{
+		font-size: 30px;
+		font-family: "OpenSans-Light", arial, sans-serif;
+	}
+	p{
+		font-family: "OpenSans-Light", arial, sans-serif;
+		font-size: 20px;
+		padding-bottom: 40px;
+	}
+	.input-wrap{
+		padding-bottom: 37px;
+	}
+	.input-wrap-btn{
+		margin-top: 10px;
+	}
+	.descr{
+		font-size: 14px;
+		display: block;
+	}
+}
+@media only screen and (max-width : 630px) {
+	.map-contact{
+		width: 380px;
+	}
+}
+@media only screen and (max-width : 510px) {
+	.mape-block{
+		display: none;
+	}
+}
 @media only screen and (min-width : 320px) {
 }
 
