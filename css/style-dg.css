@@ -313,10 +313,14 @@
     width: 570px; }
   /* line 297, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
   .leave-input:first-child {
-    margin-bottom: 40px; } }
+    margin-bottom: 40px; }
+  /* line 300, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+  .payment-title {
+    font-size: 44px;
+    line-height: 44px; } }
 
 @media only screen and (min-width: 1248px) {
-  /* line 303, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
+  /* line 307, C:/OpenServer/domains/iphone.local/css/style-dg.scss */
   .our-container {
     width: 100%;
     max-width: 1248px; } }
