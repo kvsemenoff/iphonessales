@@ -1,7 +1,7 @@
 <section class="section section_padding">
 	<div class="dfcontainer">
 		<h2 class="dfmodcap">Модели iPhone</h2>
-		<div class="dfmodel" id="iphone6s>
+		<div class="dfmodel" id="iphone6s">
 			<div class="dfmodelimg floatright">
 				<img src="img/iph1.png" alt="" class="img-responsive">
 			</div>	
