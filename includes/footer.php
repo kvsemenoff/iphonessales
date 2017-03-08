@@ -41,6 +41,7 @@
 			Наши менеджеры позвонят Вам в течение 15 минут </p><br><br>
 			<input type="text" name="uname" placeholder="Имя"><br><br>
 			<input type="text" name="phone" placeholder="Номер телефона" class="js-phone"><br><br>
+			<input type="hidden" name="model">
 			<input type="submit" name="submit" value="Отправить заявку" class="button1 button1-pink	">
 		</form>
 	</div>

@@ -83,8 +83,8 @@
 				</div>
 
 				<h4 class="dfprice">23 990 <span>руб.</span></h4>
-				<a href="#" class="dfbron">Забронировать</a>
-				<a href="#" class="dfras">В кредит</a>
+				<a href="#js-form1" name="js-modal" class="dfbron">Забронировать</a>
+				<a href="#js-form1" name="js-modal" class="dfras">В кредит</a>
 			</div>
 			<div class="clear"></div>			
 		</div>

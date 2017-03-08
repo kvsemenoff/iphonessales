@@ -2,6 +2,7 @@
 $to = "test@yandex.ru";
 $phone = $_POST['phone'];
 $uname = $_POST['uname'];
+$model = $_POST['model'];
 // Формирование заголовка письма
 
 $headers  = "From: info@starlight.space" . "\r\n";
@@ -13,6 +14,7 @@ $msg  = "<html><body>";
 $msg .= "<h2>Новое сообщение</h2>\r\n";
 $msg .= "<p><strong>Имя</strong> ".$uname."</p>\r\n";
 $msg .= "<p><strong>Телефон:</strong> ".$phone."</p>\r\n";
+$msg .= "<p><strong>Модель телефона:</strong> ".$model."</p>\r\n";
 
 
 $msg .= "</body></html>";
