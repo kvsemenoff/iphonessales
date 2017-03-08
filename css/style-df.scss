@@ -1,3 +1,214 @@
+.clear{
+	clear: both;
+}
+
+/*=========model=======*/
+
+.dfcontainer{
+	max-width: 1300px;
+	width: 100%;
+	margin: 0 auto;
+}
+.dfmodcap{
+	font-family: "Open Sans", arial, sans-serif;
+	font-weight: 300px;
+	margin-bottom: 62px;
+}
+.dfmodel{
+	text-align: center;
+}
+.dfmodelchar{
+	max-width: 625px;
+	width: 100%;
+	display: inline-block;
+	padding: 25px 0 40px 0px;
+	background-color: #f3f3f3;
+	font-family: "Open Sans", arial, sans-serif;
+	font-weight: 400px;//300 400 600 700 800
+	text-align: left;
+	position: relative;
+}
+.dfmodelchar:after{
+	position: absolute;
+	content: "";
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 22px solid transparent;
+	border-bottom: 20px solid #f3f3f3;
+	top:-19px;
+	left: 50%;
+	transform:translate(-50%, 0);
+}
+
+
+
+.dfnamemodel{
+	font-size: 40px;
+	color: #67635b;
+	line-height: 30px;
+	text-align:left;
+	margin-bottom: 33px;
+	padding-left: 17px;
+	
+}
+
+.dfcharblock{
+	
+}
+.dfmodelimg{
+	max-width: 625px;
+	width: 100%;
+	display: inline-block;	
+	text-align: center;	
+	padding: 0px 30px 50px 30px;
+	max-height: 571px;
+	margin-top: 50px;
+	img{
+		margin: 0 auto;
+		display: inline-block;
+		// width: 100%;
+		// height: auto;
+		vertical-align: bottom;
+	}
+}
+.dfcharbox{
+	border-bottom: 2px solid white;
+	padding: 0px 0 0px 17px;
+	span{
+		display: inline-block;
+		font-size: 16px;
+		color: #67635b;
+		line-height: 36px;
+		letter-spacing: -0.01em;
+		vertical-align: top;
+	}
+	span:first-child{	
+	}
+	span:last-child{
+		padding-left: 5px;
+	}
+}
+
+
+
+
+.dfcharram{
+	font-family: "Open Sans", arial, sans-serif;
+	font-weight: 400;//300 400 600 700 800
+	padding: 0px 0 0px 17px;
+	border-bottom: 2px solid white;
+}
+.dfobe{
+	display: inline-block;
+	font-size: 16px;
+	color: #67635b;
+	line-height: 36px;
+	letter-spacing: -0.01em;		
+}
+.dfgb{
+	display: inline-block;
+	padding-left: 16px;
+	max-width: 283px;
+	a{
+		display: inline-block;
+		font-size: 16px;
+		color: #67635b;
+		line-height: 36px;
+		letter-spacing: -0.01em;	
+		width: 55px;
+	}
+	a:first-child{
+		color: #f35c9f;
+		font-weight: 600;
+	}
+}
+
+.dfcharboxlast{	
+	border-bottom: none;
+	span{
+		line-height: 70px;
+	}
+}
+.dfcolor{
+	display: inline-block;
+	max-width: 290px;
+	padding-left: 16px;
+    padding-top: 19px;
+	a{
+		display: inline-block;
+		width: 35px;
+		height: 35px;
+		margin-right: 16px;
+		border-radius: 50%;
+		line-height: 60px;
+		vertical-align: middle;
+	}
+	.dfc1{
+		background-color: #f29187;
+	}
+	.dfc2{
+		background-color: #f39434;
+	}
+	.dfc3{
+		background-color: #cccccc;
+	}
+	.dfc4{
+		background-color: #272727;
+	}
+	.dfgreen{
+		background-color: #34ec6a;
+	}
+	.dfyellow{
+		background-color: #e8da53;
+	}
+	.dfblue{
+		background-color: #38b2ef;
+	}
+
+}
+
+.dfprice{
+	font-size: 40px;
+	color: #736f66;
+	line-height: 35px;
+	letter-spacing: -0.01em;
+	margin: 14px 0 35px 0;	
+	font-weight: 300;
+	padding-left: 17px;
+	span{
+		font-size: 30px;
+	}
+}
+
+.dfbron{
+	display: block;
+	text-align: center;
+	background-color: #f35c9f;	
+	font-size: 16px;
+	color: #fff;
+	line-height: 30px;
+	padding: 4px 33px 3px 33px;
+	border-bottom: 4px solid #e05593;
+	border-radius: 3px;		
+	font-weight: 600;
+	margin: 0 25px;
+	margin-bottom: 15px;
+}
+.dfras{
+	display: block;
+	text-align: center;
+	background-color: #22adc2;	
+	font-size: 16px;
+	color: #fff;
+	line-height: 30px;
+	padding: 4px 33px 3px 33px;
+	border-bottom: 4px solid #1f9fb3;
+	border-radius: 3px;
+	font-weight: 600;
+	margin: 0 25px;
+}
+
 
 @media only screen and (min-width : 320px) {
 }
@@ -9,7 +220,98 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.dfmodelimg{		
+		padding: 60px 20px;	
+		margin-top: 0;		
+	}
+	.dfmodelchar{		
+		padding: 50px 0 60px 55px;		
+	}
+	.dfnamemodel{		
+		padding-left: 0px;
+	}
+	.dfmodelchar:after{
+		display: none;
+	}
+	.floatright{
+		float: right;
+	}
+	.floatleft{
+		float: left;
+	}
+	
+	.dfcharbox{		
+		padding: 0px 0 0px 5px;	
+		border-bottom: 1px solid white;	
+		span:first-child{
+			max-width: 232px;
+			width: 100%;
+			border-right: 1px solid white;
+		}
+		span:last-child{
+			padding-left: 15px;
+		}
+	}
+	.dfcharboxlast{
+		border-bottom: none;
+	}
+	.dfobe{		
+		max-width: 232px;
+		width: 100%;
+		border-right: 1px solid white;
+		padding-bottom: 17px;
+	}
+	.dfprice{		
+		margin: 14px 0 28px 0;			
+		padding-left: 5px;		
+	}
+	.dfcharram{		
+		border-bottom: 1px solid white;
+		padding: 0px 0 0px 5px;
+	}
+	.dfbron{
+		display: inline-block;		
+		padding: 4px 33px 3px 33px;		
+		margin-right: 40px;
+		margin-left: 10px;	
+		font-weight: 400;	
+	}
+	.dfras{
+		display: inline-block;		
+		padding: 7px 27px 3px 27px;
+		border-bottom: 4px solid #1f9fb3;	
+		font-weight: 400;	
+	}
 }
 
 @media only screen and (min-width : 1248px) {
+	.dfrighttreyg{		
+		position: relative;		
+	}
+	.dflefttreyg{
+		position: relative;
+	}
+	.dfrighttreyg:before{
+		content: "";
+		position: absolute;
+		right:-20px;
+		top:50%;
+		width: 0; height: 0;
+		border-top: 20px solid transparent;
+		border-left: 22px solid #f3f3f3;
+		border-bottom: 20px solid transparent;
+		transform:translate(0, -50%);
+	}
+	.dflefttreyg:before{
+		content: "";
+		position: absolute;
+		left:-20px;
+		top:50%;
+		width: 0; height: 0;
+		border-top: 20px solid transparent;
+		border-right: 22px solid #f3f3f3;
+		border-bottom: 20px solid transparent;
+		transform:translate(0, -50%);
+	}
+
 }
