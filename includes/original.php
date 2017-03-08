@@ -25,7 +25,7 @@
 				</div>
 				<div class="dd-form-box_h">
 					<div  class="az-select">
-						<select name="" id="">
+						<select name="model" id="">
 							<option value="1">Выберите модель</option>
 							<option value="2">iphone 5</option>
 							<option value="3">iphone 6</option>
@@ -33,7 +33,7 @@
 						</select>
 					</div>
 					<div class="dd-button_h">
-						<input class="dd-button-1 dd-w100" type="submit">
+						<input class="dd-button-1 dd-w100" type="submit" value="Отправить">
 						<!-- <a class="dd-button-1 dd-w100" href="#">Заказать телефон</a> -->
 					</div>
 					<div class="dd-strelka">
