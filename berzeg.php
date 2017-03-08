@@ -5,7 +5,7 @@
 <section class="dd-slider-wrap">
 	<div class="dd-container">
 		<div class="dd-title_ab">
-			<h1>Наши клиенты о нас</h1>
+			<h2>Наши клиенты о нас</h2>
 		</div>
 		<div id="slider">
 			<div class="item">
@@ -61,7 +61,7 @@
 <section class="dd-footer-wrap">
 	<div class="dd-container">
 		<div class="dd-foter-box dd-foter-box_1">
-			<span>iPhonessale</span>
+			<span><img src="img/dd-logo.png" alt=""></span>
 			<span>© Компания "АйфонСейл" 2017.</span>
 		</div>
 		<div class="dd-foter-box dd-foter-box_2">

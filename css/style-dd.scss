@@ -2,7 +2,6 @@
 .dd-container{
 	max-width: 1260px;
 	margin: 0 auto;
-	outline: 1px solid red;
 }
 
 /* Slider
@@ -16,9 +15,6 @@
 	text-align: center;
 	padding-bottom: 80px;
 }
-
-
-
 #slider{
 	// background:#fff;
 	padding: 10px;
@@ -37,7 +33,7 @@
 		position: absolute;
 		left:47%;
 		transform: translate(-50);
-		bottom:-50px;
+		bottom:-74px;
 		.owl-dot{
 			display: inline-block;
 			margin-left: 5px;
@@ -69,8 +65,8 @@
 		width: 15px;
 		height: 51px;
 		position:absolute;
-		top:47%;
-		left:20px;
+		top:32%;
+		left:5px;
 		transform: translate(-50);
 	}
 	.nav-right{
@@ -78,9 +74,23 @@
 		width: 15px;
 		height: 51px;
 		position:absolute;
-		top:47%;
-		right:20px;
+		top:32%;
+		right:5px;
 		transform: translate(-50);
+	}
+}
+.dd-txt_ab{
+	span{
+		font-family: "OpenSans-Regular";
+		color: #22adc2;
+		font-size: 18px;
+		display: inline-block;
+		padding-bottom: 23px;
+	}
+	p{
+		font-family: "OpenSans-Italic";
+		color: #67635b;
+		font-size: 16px;
 	}
 }
 
@@ -110,6 +120,22 @@
 .dd-footer-button{
 	padding: 15px 0px;
 }
+.dd-foter-box_1{
+	span{
+		font-family: "Open Sans", arial, sans-serif;
+		font-weight: 400;
+		font-size: 14px;
+		color: white;
+	}
+}
+.dd-foter-box_2{
+	span{
+		color: white;
+		font-family: "Open Sans", arial, sans-serif;
+		font-size: 18px;
+		font-weight: 300;
+	}
+}
 
 @media only screen and (min-width : 320px) {
 }
@@ -121,14 +147,17 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.dd-slider-wrap{
+		padding-bottom: 158px;
+	}
 	.dd-inline-bl{
 		float: left;
 	}
 	.dd-txt_ab{
 		max-width: 824px;
-		outline: 1px solid red;
 		padding-left: 47px;
-		padding-top: 18px;
+		margin-top: -4px;
+		// padding-top: 18px;
 	}
 	.dd-foter-box_1, .dd-foter-box_2{
 		float: left;
@@ -151,7 +180,7 @@
 
 @media only screen and (min-width : 1248px) {
 	.dd-txt_ab{
-		max-width: 900px;
+		max-width: 946px;
 	}
 }
 
