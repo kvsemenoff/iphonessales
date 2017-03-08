@@ -33,6 +33,7 @@ $(document).ready(function(){
         $(this).find('.az-options').slideToggle(0);
         $(this).toggleClass('az-select-focus');
     });
+<<<<<<< HEAD
 
     $('.menu-up').slideUp(0);
     $('.menu-button').click(function(){
@@ -46,6 +47,9 @@ $(document).ready(function(){
     });
 
 
+=======
+    $(".phone").mask("+ 7 (999) 999 - 99 - 99?");
+>>>>>>> a9518c7c72c87be14cbec4708bf33d37af66cf48
  });
 
 
