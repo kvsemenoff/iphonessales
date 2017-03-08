@@ -18,10 +18,10 @@
 			<span class="dd-sp2_h">и получите защитное
 				стекло в подарок!
 			</span>
-			<form action="#" method="post">
+			<form class="js-submit" action="#" method="post">
 				<div class="dd-form-box_h">
 					<input class="dd-input" type="text" name="uname" placeholder="Имя">
-					<input class="dd-input" type="email" name="phone" placeholder="Номер телефона">
+					<input class="dd-input phone" type="text" name="phone" placeholder="Номер телефона">
 				</div>
 				<div class="dd-form-box_h">
 					<div  class="az-select">
@@ -33,7 +33,8 @@
 						</select>
 					</div>
 					<div class="dd-button_h">
-						<a class="dd-button-1 dd-w100" href="#">Заказать телефон</a>
+						<input class="dd-button-1 dd-w100" type="submit">
+						<!-- <a class="dd-button-1 dd-w100" href="#">Заказать телефон</a> -->
 					</div>
 					<div class="dd-strelka">
 						<img src="img/strel.png" alt="">
