@@ -1,3 +1,4 @@
+<a name="payment"></a>
 <section class="section section_padding payment">
 <div class="container">
         <div class="col-md-12 hidden-md hidden-lg">
