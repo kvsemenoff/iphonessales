@@ -8,6 +8,7 @@
 	max-width: 1300px;
 	width: 100%;
 	margin: 0 auto;
+	padding-bottom: 0px;
 }
 .dfmodcap{
 	font-family: "Open Sans", arial, sans-serif;
@@ -221,6 +222,9 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.dfcontainer{		
+		padding-bottom: 90px;
+	}
 	.dfmodcap{		
 		margin-bottom: 62px;
 		margin-top: 77px;

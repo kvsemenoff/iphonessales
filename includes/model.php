@@ -1,7 +1,7 @@
 <section class="section section_padding">
 	<div class="dfcontainer">
 		<h2 class="dfmodcap">Модели iPhone</h2>
-		<div class="dfmodel">
+		<div class="dfmodel" id="iphone6s>
 			<div class="dfmodelimg floatright">
 				<img src="img/iph1.png" alt="" class="img-responsive">
 			</div>	
@@ -45,7 +45,7 @@
 			</div>
 			<div class="clear"></div>			
 		</div>
-		<div class="dfmodel">
+		<div class="dfmodel" id="iphone6">
 			<div class="dfmodelimg floatleft">
 				<img src="img/iph2.png" alt="" class="img-responsive">
 			</div>	
@@ -88,7 +88,7 @@
 			</div>
 			<div class="clear"></div>			
 		</div>
-		<div class="dfmodel">
+		<div class="dfmodel" id="iphone6plus">
 			<div class="dfmodelimg floatright">
 				<img src="img/iph1.png" alt="" class="img-responsive">
 			</div>	
@@ -131,7 +131,7 @@
 			</div>
 			<div class="clear"></div>			
 		</div>
-		<div class="dfmodel">
+		<div class="dfmodel" id="iphone5s">
 			<div class="dfmodelimg floatleft">
 				<img src="img/iph3.png" alt="" class="img-responsive">
 			</div>	
@@ -174,7 +174,7 @@
 			</div>
 			<div class="clear"></div>			
 		</div>
-		<div class="dfmodel">
+		<div class="dfmodel" id="iphone5c">
 			<div class="dfmodelimg floatright">
 				<img src="img/iph4.png" alt="" class="img-responsive">
 			</div>	
@@ -220,7 +220,7 @@
 			</div>
 			<div class="clear"></div>			
 		</div>
-		<div class="dfmodel">
+		<div class="dfmodel" id="iphone5">
 			<div class="dfmodelimg floatleft">
 				<img src="img/iph5.png" alt="" class="img-responsive">
 			</div>	
@@ -262,7 +262,7 @@
 			</div>
 			<div class="clear"></div>			
 		</div>
-		<div class="dfmodel">
+		<div class="dfmodel" id="iphone4s">
 			<div class="dfmodelimg floatright">
 				<img src="img/iph6.png" alt="" class="img-responsive">
 			</div>	
@@ -304,7 +304,7 @@
 			</div>
 			<div class="clear"></div>			
 		</div>
-		<div class="dfmodel">
+		<div class="dfmodel" id="iphone4">
 			<div class="dfmodelimg floatleft">
 				<img src="img/iph7.png" alt="" class="img-responsive">
 			</div>	
