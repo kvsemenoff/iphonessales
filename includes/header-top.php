@@ -48,7 +48,7 @@
 							</div>
 						</div>
 						<div class="btn-wrap">
-							<a href="#" class="button1 button1-pink">Обратный звонок</a>
+							<a href="#js-form1" class="button1 button1-pink" name="js-modal">Обратный звонок</a>
 						</div>
 					</div>
 				</div>
