@@ -120,10 +120,14 @@
 		letter-spacing: -0.01em;	
 		width: 55px;
 	}
-	a:first-child{
-		color: #f35c9f;
-		font-weight: 600;
-	}
+	// a:first-child{
+	// 	color: #f35c9f;
+	// 	font-weight: 600;
+	// }
+}
+.dfactivecolor{	
+	color:  #f35c9f !important;
+	font-weight: 600;
 }
 
 .dfcharboxlast{	

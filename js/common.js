@@ -250,6 +250,26 @@ $(document).ready(function(){
         }
     });
 
+
+    //change price and change color
+    $('.dfgb a').on('click', function(e){
+        e.preventDefault();
+        var price = $(this).attr('price');
+        if ($('.dfgb a').hasClass('dfactivecolor')) {
+            $('.dfgb a').removeClass('dfactivecolor');
+        }
+        $(this).addClass('dfactivecolor');
+        $(this).parents('.dfmodelchar').find('.dfprice').find('b').text(price);
+    });
+
+    $('.dfcolor a').on('click',function(evt) { 
+        evt.preventDefault();       
+        var imgPath = $(this).attr('href');         
+        var oldImage = $('.dfmodelimg img');              
+        var newImage = $('<img src="' + imgPath +'">'); 
+        $(this).parents('.dfmodel').find('.dfmodelimg').html(newImage);                  
+    });
+
  });
 
 

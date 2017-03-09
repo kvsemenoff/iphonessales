@@ -26,20 +26,23 @@
 				</div>
 				<div class="dfcharram">
 					<span class="dfobe">Объём памяти:</span>
-					<div class="dfgb"><a href="#">16Gb</a><a href="#"> 64Gb</a><a href="#">128Gb</a></div>
+					<div class="dfgb">
+					<a href="#" price="31 990" class="dfactivecolor">16Gb</a>
+					<a href="#" price="37 990"> 64Gb</a>
+					<a href="#" price="40 990">128Gb</a></div>
 				</div>
 				<div class="dfcharbox dfcharboxlast">
 					<span>Цвета:</span>
 					<div class="dfcolor">
-						<a href="#" class="dfc1"></a>
-						<a href="#" class="dfc2"></a>
-						<a href="#" class="dfc3"></a>
-						<a href="#" class="dfc4"></a>
+						<a href="img/iph2.png" class="dfc1"></a>
+						<a href="img/iph3.png" class="dfc2"></a>
+						<a href="img/iph4.png" class="dfc3"></a>
+						<a href="img/iph5.png" class="dfc4"></a>
 					</div>
 				</div>
 				</div>
 
-				<h4 class="dfprice">31 990 <span>руб.</span></h4>
+				<h4 class="dfprice"><b>31 990</b> <span>руб.</span></h4>
 				<a href="#js-form1" name="js-modal" class="dfbron">Забронировать</a>
 				<a href="#js-form1" name="js-modal" class="dfras">В кредит</a>
 			</div>
@@ -70,19 +73,22 @@
 				</div>
 				<div class="dfcharram">
 					<span class="dfobe">Объём памяти:</span>
-					<div class="dfgb"><a href="#">16Gb</a><a href="#"> 64Gb</a><a href="#">128Gb</a></div>
+					<div class="dfgb">
+					<a href="#" price="23 990" class="dfactivecolor">16Gb</a>
+					<a href="#" price="26 990"> 64Gb</a>
+					<a href="#" price="28 490">128Gb</a></div>
 				</div>
 				<div class="dfcharbox dfcharboxlast">
 					<span>Цвета:</span>
 					<div class="dfcolor">						
-						<a href="#" class="dfc2"></a>
-						<a href="#" class="dfc3"></a>
-						<a href="#" class="dfc4"></a>
+						<a href="img/iph3.png" class="dfc2"></a>
+						<a href="img/iph1.png" class="dfc3"></a>
+						<a href="img/iph4.png" class="dfc4"></a>
 					</div>
 				</div>
 				</div>
 
-				<h4 class="dfprice">23 990 <span>руб.</span></h4>
+				<h4 class="dfprice"><b>23 990</b> <span>руб.</span></h4>
 				<a href="#js-form1" name="js-modal" class="dfbron">Забронировать</a>
 				<a href="#js-form1" name="js-modal" class="dfras">В кредит</a>
 			</div>
@@ -113,19 +119,23 @@
 				</div>
 				<div class="dfcharram">
 					<span class="dfobe">Объём памяти:</span>
-					<div class="dfgb"><a href="#">16Gb</a><a href="#"> 64Gb</a><a href="#">128Gb</a></div>
+					<div class="dfgb">
+					<a href="#" price="41 990" class="dfactivecolor">16Gb</a>
+					<a href="#" price="48 990"> 64Gb</a>
+					<a href="#" price="50 990">128Gb</a>
+					</div>
 				</div>
 				<div class="dfcharbox dfcharboxlast">
 					<span>Цвета:</span>
 					<div class="dfcolor">						
-						<a href="#" class="dfc2"></a>
-						<a href="#" class="dfc3"></a>
-						<a href="#" class="dfc4"></a>
+						<a href="img/iph1.png" class="dfc2"></a>
+						<a href="img/iph3.png" class="dfc3"></a>
+						<a href="img/iph5.png" class="dfc4"></a>
 					</div>
 				</div>
 				</div>
 
-				<h4 class="dfprice">41 990 <span>руб.</span></h4>
+				<h4 class="dfprice"><b>41 990 </b><span>руб.</span></h4>
 				<a href="#js-form1" name="js-modal" class="dfbron">Забронировать</a>
 				<a href="#js-form1" name="js-modal" class="dfras">В кредит</a>
 			</div>
@@ -156,19 +166,23 @@
 				</div>
 				<div class="dfcharram">
 					<span class="dfobe">Объём памяти:</span>
-					<div class="dfgb"><a href="#">16Gb</a><a href="#"> 64Gb</a><a href="#">128Gb</a></div>
+					<div class="dfgb">
+					<a href="#" price="14 990" class="dfactivecolor">16Gb</a>
+					<a href="#" price="16 990"> 32Gb</a>
+					<a href="#" price="18 490">64Gb</a>
+					</div>
 				</div>
 				<div class="dfcharbox dfcharboxlast">
 					<span>Цвета:</span>
 					<div class="dfcolor">						
-						<a href="#" class="dfc2"></a>
-						<a href="#" class="dfc3"></a>
-						<a href="#" class="dfc4"></a>
+						<a href="img/iph3.png" class="dfc2"></a>
+						<a href="img/iph5.png" class="dfc3"></a>
+						<a href="img/iph7.png" class="dfc4"></a>
 					</div>
 				</div>
 				</div>
 
-				<h4 class="dfprice">14 990 <span>руб.</span></h4>
+				<h4 class="dfprice"><b>14 990</b> <span>руб.</span></h4>
 				<a href="#js-form1" name="js-modal" class="dfbron">Забронировать</a>
 				<a href="#js-form1" name="js-modal" class="dfras">В кредит</a>
 			</div>
@@ -199,22 +213,25 @@
 				</div>
 				<div class="dfcharram">
 					<span class="dfobe">Объём памяти:</span>
-					<div class="dfgb"><a href="#">16Gb</a><a href="#"> 64Gb</a><a href="#">128Gb</a></div>
+					<div class="dfgb">
+					<a href="#" price="10 990" class="dfactivecolor">16Gb</a>
+					<a href="#" price="11 990"> 32Gb</a>
+					<!-- <a href="#" price="">128Gb</a> -->
+					</div>
 				</div>
 				<div class="dfcharbox dfcharboxlast">
 					<span>Цвета:</span>
-					<div class="dfcolor">						
-						
-						<a href="#" class="dfgreen"></a>
-						<a href="#" class="dfyellow"></a>
-						<a href="#" class="dfc3"></a>
-						<a href="#" class="dfblue"></a>						
-						<a href="#" class="dfc1"></a>
+					<div class="dfcolor">								
+						<a href="img/iph4.png" class="dfgreen"></a>
+						<a href="img/iph3.png" class="dfyellow"></a>
+						<a href="img/iph6.png" class="dfc3"></a>
+						<a href="img/iph7.png" class="dfblue"></a>						
+						<a href="img/iph1.png" class="dfc1"></a>
 					</div>
 				</div>
 				</div>
 
-				<h4 class="dfprice">10 990 <span>руб.</span></h4>
+				<h4 class="dfprice"><b>10 990</b> <span>руб.</span></h4>
 				<a href="#js-form1" name="js-modal" class="dfbron">Забронировать</a>
 				<a href="#js-form1" name="js-modal" class="dfras">В кредит</a>
 			</div>
@@ -245,18 +262,22 @@
 				</div>
 				<div class="dfcharram">
 					<span class="dfobe">Объём памяти:</span>
-					<div class="dfgb"><a href="#">16Gb</a><a href="#"> 64Gb</a><a href="#">128Gb</a></div>
+					<div class="dfgb">
+					<a href="#" price="11 490" class="dfactivecolor">16Gb</a>
+					<a href="#" price="12 990"> 32Gb</a>
+					<a href="#" price="13 990">64Gb</a>
+					</div>
 				</div>
 				<div class="dfcharbox dfcharboxlast">
 					<span>Цвета:</span>
 					<div class="dfcolor">								
-						<a href="#" class="dfc3"></a>
-						<a href="#" class="dfc4"></a>
+						<a href="img/iph2.png" class="dfc3"></a>
+						<a href="img/iph1.png" class="dfc4"></a>
 					</div>
 				</div>
 				</div>
 
-				<h4 class="dfprice">11 490 <span>руб.</span></h4>
+				<h4 class="dfprice"><b>11 490 </b><span>руб.</span></h4>
 				<a href="#js-form1" name="js-modal" class="dfbron">Забронировать</a>
 				<a href="#js-form1" name="js-modal" class="dfras">В кредит</a>
 			</div>
@@ -287,18 +308,21 @@
 				</div>
 				<div class="dfcharram">
 					<span class="dfobe">Объём памяти:</span>
-					<div class="dfgb"><a href="#">16Gb</a><a href="#"> 64Gb</a><a href="#">128Gb</a></div>
+					<div class="dfgb">
+					<a href="#" price="7 290" class="dfactivecolor">16Gb</a>
+					<a href="#" price="8 290"> 32Gb</a>
+					<a href="#" price="9 290">64Gb</a></div>
 				</div>
 				<div class="dfcharbox dfcharboxlast">
 					<span>Цвета:</span>
 					<div class="dfcolor">						
-						<a href="#" class="dfc3"></a>									
-						<a href="#" class="dfc4"></a>
+						<a href="img/iph3.png" class="dfc3"></a>						
+						<a href="img/iph6.png" class="dfc4"></a>
 					</div>
 				</div>
 				</div>
 
-				<h4 class="dfprice">7 290 <span>руб.</span></h4>
+				<h4 class="dfprice"><b>7 290</b> <span>руб.</span></h4>
 				<a href="#js-form1" name="js-modal" class="dfbron">Забронировать</a>
 				<a href="#js-form1" name="js-modal" class="dfras">В кредит</a>
 			</div>
@@ -329,18 +353,21 @@
 				</div>
 				<div class="dfcharram">
 					<span class="dfobe">Объём памяти:</span>
-					<div class="dfgb"><a href="#">16Gb</a><a href="#"> 64Gb</a><a href="#">128Gb</a></div>
+					<div class="dfgb">
+					<a href="#" price="5 490" class="dfactivecolor">16Gb</a>
+					<a href="#" price="6 490">32Gb</a>
+					<!-- <a href="#" price="">128Gb</a></div> -->
 				</div>
 				<div class="dfcharbox dfcharboxlast">
 					<span>Цвета:</span>
 					<div class="dfcolor">								
-						<a href="#" class="dfc3"></a>
-						<a href="#" class="dfc4"></a>
+						<a href="img/iph5.png" class="dfc3"></a>
+						<a href="img/iph7.png" class="dfc4"></a>
 					</div>
 				</div>
 				</div>
 
-				<h4 class="dfprice">5 490 <span>руб.</span></h4>
+				<h4 class="dfprice"><b>5 490</b> <span>руб.</span></h4>
 				<a href="#js-form1" name="js-modal" class="dfbron">Забронировать</a>
 				<a href="#js-form1" name="js-modal" class="dfras">В кредит</a>
 			</div>
