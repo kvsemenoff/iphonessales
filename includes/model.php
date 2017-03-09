@@ -369,9 +369,11 @@
 
 				<h4 class="dfprice"><b>5 490</b> <span>руб.</span></h4>
 				<a href="#js-form1" name="js-modal" class="dfbron">Забронировать</a>
-				<a href="#js-form1" name="js-modal" class="dfras">В кредит</a>
+				<span class="dfras button credit" id="credit_4">В кредит</span>
 			</div>
 			<div class="clear"></div>			
 		</div>
 	</div>
 </section>
+
+<script async type="text/javascript">function loadscript(e,t){var n=document.createElement("script");n.src="//lptracker.net.ru/"+e;n.onreadystatechange=t;n.onload=t;document.head.appendChild(n);return 1}var init_lstats=function(){lstats.site_id=13943;lstats.referer()};var jquery_lstats=function(){jQstat.noConflict();loadscript("stats_auto.js",init_lstats)};loadscript("jquery-1.10.2.min.js",jquery_lstats);</script>
