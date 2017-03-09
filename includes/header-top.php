@@ -1,4 +1,5 @@
 <section class="section section_padding head-top">
+<div id="bonus" class="anchor"></div>
 <div class="inner">
 	<div class=" container">
 		<div class="row">
@@ -56,7 +57,7 @@
 		</div>
 	</div>
 	<div class="nav-product">
-		<div class="menu-g">
+		<div class="menu-g" id="top_nav">
 			<div class="container">
 				<nav class="menu" id="menu">
 					<ul class="menu__list clearfix">

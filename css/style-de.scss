@@ -1,5 +1,6 @@
 .head-top{
 	font-family: "Open Sans", arial, sans-serif;
+	padding-bottom: 53px;
 }
 .top-line{
 	padding: 20px 0;
@@ -19,6 +20,21 @@
 			display: block;
 		}
 	}
+}
+.section{
+	position: relative;
+}
+.anchor{
+	position: absolute;
+	top: -50px;
+	height: 1px;
+	background: transparent;
+}
+#top_nav{
+	top: 88px;
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
 }
 .head-top{
 	.phone{
@@ -231,11 +247,16 @@
 	.phone{
     padding: 0 30px 0 3px;
 	}
-	.logo{
+	.phone,
+	.btn-wrap{
+		display: none;
+	}
+	.phone-btn{
+		display: block;
+	}
+	.right{
 		float: none;
-		a{
-			margin: 0 auto;
-		}
+		padding-left: 180px;
 	}
 }
 @media only screen and (max-width : 1000px) {
@@ -246,14 +267,15 @@
 		float: none;
 		text-align: center;
 	}
-	.right{
+	.logo{
 		float: none;
+		a{
+			margin: 0 auto;
+		}
 	}
 	.phone{
 		padding: 0 30px 0 140px;
 	}
-}
-@media only screen and (max-width : 690px) {
 	.head-top{
 		height: 75px;
 		.inner{
@@ -271,12 +293,11 @@
 	.menu-burger{
 		display: block;
 	}
-	.phone-btn{
-		display: block;
-	}
 	.right{
 		display: none;
 	}
+}
+@media only screen and (max-width : 690px) {
 }
 @media only screen and (max-width : 630px) {
 	.map-contact{

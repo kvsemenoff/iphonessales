@@ -1,5 +1,6 @@
 <!-- Бонусом вы получите -->
-<section class="dd-wrap_bonus" id="bonus">
+<section class="dd-wrap_bonus section">
+<div id="bonus" class="anchor"></div>
 	<div class="dd-container">
 		<h2 class="dd-mob_h2_bonus">Бонусы</h2>
 		<h2 class="dd-dekstop_h2_bonus">Бонусом вы получите</h2>
