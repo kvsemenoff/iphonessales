@@ -8,10 +8,6 @@
 .main-nav li { display: inline-block; }
 .main-nav li a { padding: 4px 13px; color: #67635b; font-size: 14px; display: block; }
 
-.section { position: relative; }
-
-.anchor { position: absolute; top: -50px; height: 1px; background: transparent; }
-
 #top_nav { top: 88px; position: fixed; z-index: 1000; width: 100%; }
 
 .head-top .phone { float: left; color: #67635b; text-align: right; padding: 0 38px 0 35px; }
@@ -30,13 +26,13 @@
 
 .phone-btn { border: none; background: url(../img/phone-btn.png); width: 26px; height: 28px; position: absolute; top: 20px; right: 20px; display: none; }
 
-.bg { position: absolute; background: #22adc2; width: 27px; height: 21px; top: 25px; left: 20px; display: block; transition: 0.6s all ease; outline: none; }
+.bg { position: absolute; background: #22adc2; width: 27px; height: 21px; top: 25px; left: 20px; display: block; transition: 0.6s all ease; outline: none; cursor: pointer; }
 
 .bg::before { content: ""; position: absolute; width: 27px; height: 6px; top: 3px; left: 0; background: #fff; display: block; }
 
 .bg::after { content: ""; position: absolute; width: 27px; height: 6px; left: 0; background: #fff; display: block; top: 12px; }
 
-.bg-close { position: absolute; top: -80px; transition: 0.4s all ease; left: 0; width: 100%; background: #20a3b7 url(../img/bg-close-ic.png) 15px center no-repeat; line-height: 75px; padding-left: 60px; font-size: 20px; color: #fff; }
+.bg-close { cursor: pointer; position: absolute; top: -80px; transition: 0.4s all ease; left: 0; width: 100%; background: #20a3b7 url(../img/bg-close-ic.png) 15px center no-repeat; line-height: 75px; padding-left: 60px; font-size: 20px; color: #fff; }
 
 .menu-button { position: relative; }
 

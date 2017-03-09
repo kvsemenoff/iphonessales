@@ -12,17 +12,17 @@
 						</div>
 						<nav class="menu-up" id="mini-menu">
 							<ul class="menu__list">
-								<li class="menu__li"><a href="#iphone6s">iPhone 6S</a></li>
-								<li class="menu__li"><a href="#iphone6">iPhone 6</a></li>
-								<li class="menu__li"><a href="#iphone6plus">iPhone 6Plus</a></li>
-								<li class="menu__li"><a href="#iphone5s">iPhone 5S</a></li>
-								<li class="menu__li"><a href="#iphone5s">iPhone 5C</a></li>
-								<li class="menu__li"><a href="#iphone5">iPhone 5</a></li>
-								<li class="menu__li"><a href="#iphone4s">iPhone 4s</a></li>
-								<li class="menu__li"><a href="#iphone4">iPhone 4</a></li>
-								<li class="menu__li"><a href="#advantages">Преимущества</a></li>
-								<li class="menu__li"><a href="#payment">Способы оплаты</a></li>
-								<li class="menu__li"><a href="#bonus">Бонусы</a></li>
+								<li class="menu__li"><a class="mini-a" href="#iphone6s">iPhone 6S</a></li>
+								<li class="menu__li"><a class="mini-a" href="#iphone6">iPhone 6</a></li>
+								<li class="menu__li"><a class="mini-a" href="#iphone6plus">iPhone 6Plus</a></li>
+								<li class="menu__li"><a class="mini-a" href="#iphone5s">iPhone 5S</a></li>
+								<li class="menu__li"><a class="mini-a" href="#iphone5s">iPhone 5C</a></li>
+								<li class="menu__li"><a class="mini-a" href="#iphone5">iPhone 5</a></li>
+								<li class="menu__li"><a class="mini-a" href="#iphone4s">iPhone 4s</a></li>
+								<li class="menu__li"><a class="mini-a" href="#iphone4">iPhone 4</a></li>
+								<li class="menu__li"><a class="mini-a" href="#advantages">Преимущества</a></li>
+								<li class="menu__li"><a class="mini-a" href="#payment">Способы оплаты</a></li>
+								<li class="menu__li"><a class="mini-a" href="#bonuss">Бонусы</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -35,7 +35,7 @@
 							<ul>
 								<li><a href="#advantages">Преимущества</a></li>
 								<li><a href="#payment">Способы оплаты</a></li>
-								<li><a href="#bonus">Бонусы</a></li>
+								<li><a href="#bonuss">Бонусы</a></li>
 								<li><a href="#testimonials">Отзывы</a></li>
 								<li><a href="#contacts">Контакты</a></li>
 							</ul>

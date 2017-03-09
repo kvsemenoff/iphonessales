@@ -1,5 +1,4 @@
-<section class="section section_padding payment">
-<div id="payment" class="anchor"></div>
+<section class="section section_padding payment" id="payment">
 <div class="container">
         <div class="col-md-12 hidden-md hidden-lg">
             <h2 class="payment-title">Способы оплаты</h2>
