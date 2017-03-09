@@ -1,6 +1,5 @@
 <!-- Клиенты о нас -->
-<a name="testimonials"></a>
-<section class="dd-slider-wrap">
+<section class="dd-slider-wrap" id="testimonials">
 	<div class="dd-container">
 		<div class="dd-title_ab">
 			<h2>Наши клиенты о нас</h2>

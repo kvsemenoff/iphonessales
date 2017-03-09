@@ -1,5 +1,4 @@
-<a name="advantages"></a>
-<section class="section section_padding our">
+<section class="section section_padding our" id="advantages">
 <div class=" container our-container">
 	<div class="row">
 		<div class="col-md-12 hidden-md hidden-lg">

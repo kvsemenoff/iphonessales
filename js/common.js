@@ -101,7 +101,29 @@ $(document).ready(function(){
             $('.menu-up').slideUp(400)
         }
     });
+    // ==========================================
+	// ============ ПОДКЛЮЧЕНИЕ ЯКОРЯ ===========
+	// ==========================================
+	  $("#menu").on('click','a', function(event){
+	    event.preventDefault();
+	    var id  = $(this).attr('href'),
+	    top = $(id).offset().top;
+	    $('body,html').animate({scrollTop: top}, 1000);
+	  })
 
+      $("#mini-menu").on('click','a', function(event){
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+        top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1000);
+      })
+
+       $("#main-menu").on('click','a', function(event){
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+        top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1000);
+      })
 
 
 

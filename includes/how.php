@@ -1,4 +1,4 @@
-<section class="section section_padding mape-block">
+<section class="section section_padding mape-block" id="contacts">
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">

@@ -9,7 +9,7 @@
 							<i class="bg"></i>
 							<i class="bg-close">Скрыть меню</i>
 						</div>
-						<nav class="menu-up">
+						<nav class="menu-up" id="mini-menu">
 							<ul class="menu__list">
 								<li class="menu__li"><a href="#iphone6s">iPhone 6S</a></li>
 								<li class="menu__li"><a href="#iphone6">iPhone 6</a></li>
@@ -30,7 +30,7 @@
 					</div>
 					<button class="phone-btn"></button>
 					<div class="right clearfix">
-						<nav class="main-nav">
+						<nav class="main-nav" id="main-menu">
 							<ul>
 								<li><a href="#advantages">Преимущества</a></li>
 								<li><a href="#payment">Способы оплаты</a></li>
@@ -58,7 +58,7 @@
 	<div class="nav-product">
 		<div class="menu-g">
 			<div class="container">
-				<nav class="menu">
+				<nav class="menu" id="menu">
 					<ul class="menu__list clearfix">
 						<li class="menu__li"><a href="#iphone6s">iPhone 6S</a></li>
 						<li class="menu__li"><a href="#iphone6">iPhone 6</a></li>
